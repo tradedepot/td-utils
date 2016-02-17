@@ -1,0 +1,26 @@
+{
+  "name": "tradedepot",
+  "version": "0.1.0",
+  "description": "TradeDepot Utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitrepo"
+  },
+  "keywords": [
+    "redirect",
+    "index"
+  ],
+  "dependencies": {
+    "express": "^4.x.x",
+    "request": "2.42.0",
+  },
+  "devDependencies": {
+    "mocha": "1.21.4",
+    "nock": "0.47.0",
+    "chai": "1.9.1"
+  }
+}

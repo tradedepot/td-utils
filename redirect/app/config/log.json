@@ -1,0 +1,4 @@
+{
+  "logfile": "/var/log/tdc-home.log",
+  "logenv": "development"
+}
