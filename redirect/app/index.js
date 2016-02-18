@@ -18,7 +18,7 @@ app.all('/', router);
 var port = process.env.PORT || 80;
 
 var server = http.createServer(app).listen(port, function() {
-  logger.info('Redirect server listening on port %d in %s mode', port, app.settings.env);
+  console.log('Redirect server listening on port ' + port + ' in ' + app.settings.env + ' mode');
 });
 
 
